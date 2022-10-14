@@ -1,0 +1,39 @@
+@charset "utf-8";
+.ddmenu {
+    background-color: #FC3337;
+    margin: 0px;
+    padding-left: 15px;
+}
+.ddmenu li {
+    width: 125px;
+    display: inline-block;
+    list-style-type: none;
+    position: relative;
+
+}
+
+.ddmenu a {
+    background-color: #F3337;
+    color: #FEFBFB;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+	
+}
+
+
+.ddmenu ul {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+.ddmenu a:hover {
+    background-color: #F8B3B4;
+    color: #F72F32;
+}
+.ddmenu li:hover ul {
+    display: block;
+}
